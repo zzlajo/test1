@@ -1,0 +1,12 @@
+loop1:
+    R
+    L
+    R
+    S
+    G:loop1
+loop2:
+    R
+    G:loop2
+	
+	
+* Postoji vise resenja, ovo je jedno. Poenta je da loop1 duze traje od loop2, i da loop1 napreduje po jedno polje u jedno od strana. I kad jedan od robota pronadje mrlju od ulja od drugog da upadne u loop2 koji se brze izvrsava od loop1 i da ide u smeru u kom ide robot koji je ostao u loop1. I koliko god da su da daleko na beskonacnoj traki nekad ce se sudariti.
